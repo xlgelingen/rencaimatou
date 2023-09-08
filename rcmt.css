@@ -83,7 +83,7 @@ body{
     min-width: 1184px;
 }
 
-.page-mainer .mainer-section_1{
+.page-mainer .mainer-section:nth-child(1){
     flex: none;
     height: 418px;
     width: 100%;
@@ -91,7 +91,7 @@ body{
     background:
         url(https://www.rencaimatou.cn/img/banner.c10dc550.png) no-repeat center center / contain,url(https://www.rencaimatou.cn/img/banner-side.97a04d37.png) repeat-x 0% 0% / auto 100%;   
 }
-.page-mainer .mainer-section_1 .section_1-title{
+.page-mainer .mainer-section:nth-child(1) .section-title{
     margin-top: 96px;
     height: 40px;
     font-size: 32px;
@@ -101,7 +101,7 @@ body{
     line-height: 40px;
     text-align: center;
 }
-.page-mainer .mainer-section_1 .section_1-subtitle{
+.page-mainer .mainer-section:nth-child(1) .section-subtitle{
     height: 28px;
     font-size: 20px;
     font-family: PingFangSC-Regular, PingFang SC;
@@ -112,14 +112,14 @@ body{
     margin-top: 12px;
 }
 
-.page-mainer .mainer-section_2{
+.page-mainer .mainer-section:nth-child(2){
     flex: none;
     width: 100%;
     min-width: 1184px;
     height: 418px;
     background: #ffffff;
 }
-.page-mainer .mainer-section_2 .section_2-box{
+.page-mainer .mainer-section:nth-child(2) .section-box{
     margin: 0 auto;
     /* 需要设置成border-box;不然.section_2-box会比.mainer-section_2大一圈 */
     box-sizing: border-box;
@@ -129,14 +129,14 @@ body{
     height: 418px;
     padding: 64px 32px;
 }
-.mainer-section_2 .section_2-box .box-right{
+.mainer-section:nth-child(2) .section-box .box-right{
     flex: none;
     width: 656px;
     height: 290px;
     margin-left: 80px;
     background: url(https://www.rencaimatou.cn/img/icon-pass.a1506d52.png) no-repeat center / contain;
 }
-.mainer-section_2 .section_2-box .box-left .left-title{
+.mainer-section:nth-child(2) .section-box .box-left .left-title{
     margin-top: 0;
     margin-bottom: 0.5em;
     padding: 24px 0 0;
@@ -145,12 +145,12 @@ body{
     color: #000000;
     font-weight: 500;
 }
-.mainer-section_2 .section_2-box .box-left .left-list{
+.mainer-section:nth-child(2) .section-box .box-left .left-list{
     margin-top: 32px;
     padding-left: 20px;
     margin-bottom: 0.5em;
 }
-.mainer-section_2 .section_2-box .box-left .left-list .list-item{
+.mainer-section:nth-child(2) .section-box .box-left .left-list .list-item{
     margin-top: 16px;
     line-height: 26px;
     font-size: 16px;
@@ -159,14 +159,14 @@ body{
     color: rgba(0, 0, 0, 0.85);
 }
 
-.page-mainer .mainer-section_3{
+.page-mainer .mainer-section:nth-child(3){
     flex: none;
     width: 100%;
     min-width: 1184px;
     height: 418px;
     background-color: rgb(246, 249, 254);
 }
-.page-mainer .mainer-section_3 .section_3-box{
+.page-mainer .mainer-section:nth-child(3) .section-box{
     margin: 0 auto;
     box-sizing: border-box;
     display: flex;
@@ -175,14 +175,14 @@ body{
     height: 418px;
     padding: 64px 32px;
 }
-.mainer-section_3 .section_3-box .box-left{
+.mainer-section:nth-child(3) .section-box .box-left{
     flex: none;
     width: 656px;
     height: 290px;
     margin-right: 80px;
     background: url(https://www.rencaimatou.cn/img/icon-step.d0560f66.png) no-repeat center / contain;
 }
-.mainer-section_3 .section_3-box .box-right .right-title{
+.mainer-section:nth-child(3) .section-box .box-right .right-title{
     margin-top: 0;
     margin-bottom: 0.5em;
     padding: 24px 0 0;
@@ -191,12 +191,12 @@ body{
     color: #000000;
     font-weight: 500;
 }
-.mainer-section_3 .section_3-box .box-right .right-list{
+.mainer-section:nth-child(3) .section-box .box-right .right-list{
     margin-top: 32px;
     padding-left: 20px;
     margin-bottom: 0.5em;
 }
-.mainer-section_3 .section_3-box .box-right .right-list .list-item{
+.mainer-section:nth-child(3) .section-box .box-right .right-list .list-item{
     margin-top: 16px;
     line-height: 26px;
     font-size: 16px;
@@ -205,7 +205,7 @@ body{
     color: rgba(0, 0, 0, 0.85);
 }
 
-.mainer-section_4{
+.mainer-section:nth-child(4){
     box-sizing: border-box;
     flex: none;
     width: 100%;
@@ -215,7 +215,7 @@ body{
     padding-bottom: 79px;
     background: #ffffff;
 }
-.page-mainer .mainer-section_4 .section_4-title{
+.page-mainer .mainer-section:nth-child(4) .section-title{
     margin-top: 0;
     margin-bottom: 0.5em;
     font-size: 32px;
@@ -225,16 +225,16 @@ body{
     text-align: center;
     padding-bottom: 56px;
 }
-.page-mainer .mainer-section_4 .section_4-content{
+.page-mainer .mainer-section:nth-child(4) .section-content{
     display: flex;
     width: 1184px;
     margin: 0 auto;
     justify-content: space-between;
 }
-.mainer-section_4 .section_4-content .content-item{
+.mainer-section:nth-child(4) .section-content .content-item{
     text-align: center;
 }
-.mainer-section_4 .section_4-content .content-item .item-title{
+.mainer-section:nth-child(4) .section-content .content-item .item-title{
     display: block;
     margin-top: 24px;
     margin-bottom: 14px;
@@ -242,21 +242,21 @@ body{
     line-height: 28px;
     color: #000000;
 }
-.mainer-section_4 .section_4-content .content-item .item-subtitle{
+.mainer-section:nth-child(4) .section-content .content-item .item-subtitle{
     display: block;
     font-family: PingFangSC-Regular, PingFang SC;
     font-size: 16px;
     color: rgba(0, 0, 0, 0.45);
 }
 
-.mainer-section_5{
+.mainer-section:nth-child(5){
     flex: none;
     width: 100%;
     height: 348px;
     text-align: center;
     background: url(https://www.rencaimatou.cn/img/apply-bg.2c330740.png) repeat-x center / cover;
 }
-.mainer-section_5 .section_5-title{
+.mainer-section:nth-child(5) .section-title{
     margin-top: 72px;
     height: 40px;
     font-size: 32px;
@@ -264,7 +264,7 @@ body{
     color: #ffffff;
     line-height: 40px;
 }
-.mainer-section_5 .section_5-subtitle{
+.mainer-section:nth-child(5) .section-subtitle{
     margin: 16px 0 32px;
     height: 40px;
     font-size: 18px;
@@ -272,7 +272,7 @@ body{
     color: #ffffff;
     line-height: 40px;
 }
-.mainer-section_5 .section_5-btn{
+.mainer-section:nth-child(5) .section-btn{
     display: block;
     margin: 0 auto;
     width: 160px;
