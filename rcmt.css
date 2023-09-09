@@ -162,7 +162,6 @@ body{
     padding: 64px 32px;
 }
 .mainer-cooperate .content-box .box-left{
-    flex: none;
     width: 656px;
     height: 290px;
     margin-right: 80px;
